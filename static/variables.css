@@ -24,6 +24,7 @@
     --gray-950: #505050;
 
     --sidebar-shadow: 2px 0 5px 3px rgba(93, 93, 93, .4);
+    --topbar-shadow: 0 2px 5px 3px rgba(93, 93, 93, .4);
     --footer-shadow: 3px -3px 4px 3px rgba(82, 82, 82, .4);
     --accent-color: black;
 }
@@ -54,6 +55,7 @@
     --gray-950: #fafafa;
 
     --sidebar-shadow: 2px 0 5px 3px rgba(48, 48, 48, .4);
+    --topbar-shadow: 0 2px 5px 3px rgba(48, 48, 48, .4);
     --footer-shadow: 3px -3px 4px 3px rgba(49, 49, 49, .4);
     --accent-color: white;
 }
