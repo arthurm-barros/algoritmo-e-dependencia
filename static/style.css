@@ -338,6 +338,7 @@ footer ul {
 
     .pagebar {
         height: 12em;
+        height: max-content;
         width: 100vw;
         box-shadow: var(--topbar-shadow);
         border-radius: 0 0 14px 14px;
@@ -363,7 +364,7 @@ footer ul {
     .content-links li {
         margin-bottom: 7px;
         padding: 2px 8px;
-        width: max-content;
+        width: auto;
     }
 
     .theme-switch {
@@ -396,5 +397,26 @@ footer ul {
 
     footer {
         display: none;
+    }
+}
+
+@media (max-width: 360px) {
+    .theme-switch {
+        left: 3px;
+        top: 124px;
+        width: 52px;
+        height: 22px;
+    }
+
+    .theme-switch .circle {
+        height: 20px;
+        width: 20px;
+
+        i {
+            font-size: 15px;
+            translate: 0 -4px;
+            position: absolute;
+            translate: -8.5px -1.5px;
+        }
     }
 }
