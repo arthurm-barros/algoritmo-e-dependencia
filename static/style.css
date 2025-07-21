@@ -206,6 +206,7 @@ main {
     -webkit-text-fill-color: transparent;
     font-weight: 800;
     font-size: 30px;
+    text-align: left;
 }
 
 main p {
@@ -229,6 +230,7 @@ main p {
     margin-top: 8px;
     font-weight: 700;
     font-size: 22px;
+    text-align: left;
 }
 
 .container-text {
