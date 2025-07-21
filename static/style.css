@@ -348,7 +348,7 @@ footer ul {
         z-index: 1;
 
         &.hidden-bar {
-            translate: 0 -12.5em;
+            translate: 0 -13.5em;
         }
     }
 
@@ -401,7 +401,7 @@ footer ul {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 440px) {
     .theme-switch {
         left: 3px;
         top: 124px;
