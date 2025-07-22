@@ -10,6 +10,15 @@
     list-style-type: none;
 }
 
+.dark-root *::selection {
+    background-color: #e8e8e8;
+    color: black;
+}
+
+img {
+    user-select: none;
+}
+
 body {
     display: grid;
     grid-template-columns: 280px auto;
