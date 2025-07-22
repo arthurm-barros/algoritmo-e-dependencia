@@ -201,7 +201,7 @@ main {
 }
 
 .page-title {
-    background: linear-gradient(112.5deg, var(--brand-100), var(--brand-500));
+    background: linear-gradient(112.5deg, var(--brand-400), var(--brand-600));
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 800;
@@ -348,7 +348,7 @@ footer ul {
         z-index: 1;
 
         &.hidden-bar {
-            translate: 0 -13.5em;
+            translate: 0 -14.5em;
         }
     }
 
@@ -404,7 +404,7 @@ footer ul {
 @media (max-width: 440px) {
     .theme-switch {
         left: 3px;
-        top: 124px;
+        top: 174px;
         width: 52px;
         height: 22px;
     }
