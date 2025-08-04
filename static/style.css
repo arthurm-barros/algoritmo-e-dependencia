@@ -249,6 +249,41 @@ main p {
     font-size: 16px;
 }
 
+.article-image {
+    border-radius: 18px;
+    box-shadow: 0 2px 4px 3px rgba(18, 18, 18, .4); 
+    display: block;
+    margin-bottom: 12px;
+}
+
+.intro-image {
+    margin-top: 10px;
+    width: 80%;
+}
+
+.article-image:not(.intro-image) {
+    width: 50%;
+    margin-top: 22px;
+}
+
+.credits-span {
+    font-size: 14px;
+
+    a {
+        color: var(--brand-700);
+    }
+
+    a:hover {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        color: var(--brand-900);
+    }
+
+    a:active {
+        color: var(--brand-950);
+    }
+}
+
 .members-container {
     display: none;
     margin-top: 20px;
